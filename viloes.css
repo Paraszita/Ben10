@@ -1,0 +1,42 @@
+h1{
+    color: red;
+    text-align: center;  
+    font-family: sans-serif;
+     height: 80px;  
+        font-size: 70px 
+} 
+body{
+    background-color: rgb(3, 3, 3);
+}
+
+#menu-h{
+    background-color: rgb(255, 0, 0);
+}
+
+#menu-h ul {
+  max-width: 800px;
+  list-style: none;
+  padding:0;
+  cursor: pointer;
+}
+#menu-h ul:hover{
+  color: aqua;
+}
+#menu-h ul li{
+  display:inline;
+}
+#menu-h ul li a {
+  color: #fff;
+  padding:20px;
+  display: inline-block;
+  text-decoration:none;
+  transition: background.4s;
+}
+.alieniginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%; 
+     gap: 3px;
+     flex-wrap: wrap; 
+}

@@ -1,0 +1,44 @@
+h1 { text-align: center;  
+  font-family: sans-serif;
+   height: 80px;  
+      font-size: 70px 
+
+}
+#menu-h{
+    background-color: black;
+}
+
+#menu-h ul {
+  max-width: 800px;
+  list-style: none;
+  padding:0;
+  cursor: pointer;
+}
+#menu-h ul:hover{
+  color: aqua;
+}
+#menu-h ul li{
+  display:inline;
+}
+#menu-h ul li a {
+  color: #fff;
+  padding:20px;
+  display: inline-block;
+  text-decoration:none;
+  transition: background.4s;
+}
+h1{
+  text-align: center;
+}
+body{
+  background-color: lightgreen;
+}
+.alieniginas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 100%; 
+   gap: 3px;
+   flex-wrap: wrap;
+  
+} 
